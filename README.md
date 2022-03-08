@@ -11,6 +11,8 @@ and then ffmpeg to create a 60 fps video:
 
 `ffmpeg -r 60 -loop 1 -t 10 -i "frames\myscene%%03d.png" -pix_fmt yuv420p scene_movie.mp4`
 
+(note, the discatte shape was left out to keep the scene simple)
+
 https://www.youtube.com/watch?v=yFFGBCNNzgk
 
 ![still at clock 0.15](https://github.com/discatte/barfotron6000/raw/main/sharper%20image%20ring%20toy%20selfie%20loop.png)
