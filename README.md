@@ -11,7 +11,7 @@ and then ffmpeg to create a 60 fps video:
 
 `ffmpeg -r 60 -loop 1 -t 10 -i "frames\myscene%%03d.png" -pix_fmt yuv420p scene_movie.mp4`
 
-(note, the discatte shape was left out to keep the scene simple)
+(note, the discatte shape was left out to keep the scene simple, you may find a copy here https://github.com/discatte/spincatte)
 
 https://www.youtube.com/watch?v=yFFGBCNNzgk
 
